@@ -173,14 +173,6 @@ i.glyphicon.glyphicon-search {
   margin-top: 22px;
 }
 
-a:link {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: line-through;
-}
-
 #background .jumbotron h1 {
   font-family: nexa;
   color: white;
