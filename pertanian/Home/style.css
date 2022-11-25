@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 .nav-item {
   margin-left: 50px;
 }
@@ -22,22 +28,22 @@ section.img {
 
 @keyframes example {
   0% {
-    background-image: url("/pertanian/img/buffalo-1822581.jpg");
+    background-image: url("/pertanian/img/057039600_1632620754-Pertanian.jpg");
     background-size: cover;
   }
 
   20% {
-    background-image: url("/pertanian/img/buffalo-1822581.jpg");
+    background-image: url("/pertanian/img/057039600_1632620754-Pertanian.jpg");
     background-size: cover;
   }
 
   40% {
-    background-image: url("/pertanian/img/057039600_1632620754-Pertanian.jpg");
+    background-image: url("/pertanian/img/buffalo-1822581.jpg");
     background-size: cover;
   }
 
   60% {
-    background-image: url("/pertanian/img/057039600_1632620754-Pertanian.jpg");
+    background-image: url("/pertanian/img/buffalo-1822581.jpg");
     background-size: cover;
   }
 
@@ -75,7 +81,6 @@ section.informasi {
 }
 
 section.tutorial {
-  background-color: #eee;
   padding-top: 40px;
   min-height: 650px;
 }
@@ -87,8 +92,8 @@ section.about {
 
 section.footer {
   background-color: rgba(0, 0, 0, 0.911);
-  margin-top: 10px;
-  min-height: 50px;
+  margin-top: 20px;
+  min-height: 200px;
 }
 
 a:link {
@@ -101,11 +106,13 @@ a:link {
 
 h2 {
   text-align: center;
+  font-family: "Karla", sans-serif;
 }
 
 p {
   text-align: justify;
-  font-size: 15px;
+  font-size: 20px;
+  font-family: "Karla", sans-serif;
 }
 
 h5 {

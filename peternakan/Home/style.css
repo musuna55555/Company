@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+}
 .nav-item {
   margin-left: 50px;
 }
@@ -105,7 +111,8 @@ h2 {
 
 p {
   text-align: justify;
-  font-size: 15px;
+  font-size: 20px;
+  font-family: "Karla", sans-serif;
 }
 
 h5 {
