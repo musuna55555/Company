@@ -1,294 +1,376 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Bisnis</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>E-Bisnis</title>
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="assets/fonts/font-awesome.min.css" />
-  <link rel="stylesheet" href="assets/css/styles.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <!-- navbar -->
-  <nav class="navbar navbar-default navbar-static-top" style="z-index: 1">
-    <div class="container" id="navbar">
-      <div class="navbar-header">
-        <a href="#" class="navbar-brand navbar-link" style="font-size: 40px; color: rgba(255, 255, 255, 0.788)"><b>
-            E-BUSINESS.</b></a>
-        <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1">
-          <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
-            class="icon-bar"></span><span class="icon-bar"></span>
-        </button>
-      </div>
-      <div class="collapse navbar-collapse" id="navcol-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li role="presentation"><a href="#home">HOME</a></li>
-          <li role="presentation"><a href="#news">NEWS</a></li>
-          <li role="presentation"><a href="#gallery">GALLERY</a></li>
-          <li role="presentation"><a href="#about">ABOUT</a></li>
-          <li role="presentation">
-            <a href="#"><i class="glyphicon glyphicon-search"></i></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- navbar -->
-
-  <!-- jumbotron -->
-  <div class="wrapper">
-    <section class="sec01">
-      <div class="pertanian">
-        <div class="bagan"></div>
-      </div>
-    </section>
-    <section class="sec02">
-      <div class="pertanian">
-        <div class="bagan"></div>
-      </div>
-    </section>
-    <section class="sec03">
-      <div class="pertanian">
-        <div class="bagan"></div>
-      </div>
-    </section>
-  </div>
-  <!-- jumbotron -->
-
-  <!-- container atas -->
-  <div id="home">
-    <div class="isi">
-      <div style="margin-top: -55px" class="container atas">
-        <h1>ELEMEN BISNIS</h1>
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <a href="/pertanian/Home/pertanian.html">
-              <img class="img-circle" src="assets/img/pexels-photo-2804327.jpeg"
-                style="height: 200px; width: 200px; position: relative" />
-              <h3>PERTANIAN</h3>
-            </a>
-            <p class="text-justify">
-              <strong>Pertanian</strong> adalah kegiatan pemanfaatan dan pengelolaan
-              sumber daya hayati yang dilakukan oleh manusia untuk menghasilkan bahan
-              pangan atau kebutuhan pokok,bahan baku industri atau sumber energi,serta untuk
-              mengelola lingkungan hidupnya.
-            </p>
-          </div>
-
-          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <a href="/perikanan/Home/perikanan.html">
-              <img class="img-circle" src="assets/img/budidaya-ikan-nila_43.jpeg"
-                style="height: 200px; width: 200px; position: relative" />
-              <h3>PERIKANAN</h3>
-            </a>
-            <p class="text-justify">
-              <strong>Perikanan</strong> berasal dari kata dasar ikan yang berimbuhan pe dan an
-              yang berarti segala kegiatan yang berhubungan dengan ikan.Perikanan adalah kegiatan
-              manusia yang berhubungan dengan pengelolaan sumberdaya hayati perairan.
-            </p>
-          </div>
-
-          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <a href="/peternakan/Home/peternakan.html">
-              <img class="img-circle" src="assets/img/animal-chicken-cockerel-countryside-wallpaper-preview.jpg"
-                style="height: 200px; width: 200px; position: relative" />
-              <h3>PETERNAKAN</h3>
-            </a>
-            <p class="text-justify">
-              <strong>Peternakan</strong> adalah kegiatan mengembangbiakkan
-              dan pemeliharaan hewan ternak untuk mendapatkan manfaat dan
-              hasil dari kegiatan tersebut,ada banyak jenis Hewan yang sering dipelihara dan
-              diternakkan di antaranya sapi,ayam,kambing dan domba.
-            </p>
-          </div>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-default navbar-static-top" style="z-index: 1">
+      <div class="container" id="navbar">
+        <div class="navbar-header">
+          <a
+            href="#"
+            class="navbar-brand navbar-link"
+            style="font-size: 40px; color: rgba(255, 255, 255, 0.788)"
+            ><b> E-BUSINESS.</b></a
+          >
+          <button
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#navcol-1"
+          >
+            <span class="sr-only">Toggle navigation</span
+            ><span class="icon-bar"></span><span class="icon-bar"></span
+            ><span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navcol-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li role="presentation"><a href="#home">HOME</a></li>
+            <li role="presentation"><a href="#news">NEWS</a></li>
+            <li role="presentation"><a href="#gallery">GALLERY</a></li>
+            <li role="presentation"><a href="#about">ABOUT</a></li>
+            <li role="presentation">
+              <a href="#"><i class="glyphicon glyphicon-search"></i></a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-  </div>
-  <!-- container atas -->
+    </nav>
+    <!-- navbar -->
 
-  <!-- container bawah -->
-  <div class="container bawah">
-    <h1>VISI & MISI</h1>
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-      <h2>Visi</h2>
-      <p class="text-justify">
-        1. Menjadikan bisnis yang bergerak di bidang pelayanan terbaik kepada konsumen.<br>
-        2. Memastikan pilihan yang diambil sesuai dengan tujuan dan arah bisnins.<br>
-        3. Berperan meningkatkan kualitas hidup konsumen lewat layanan yang baik.<br>
-        4. Memastikan setiap orang memiliki tujuan yang sama dalam bekerja di perusahaan.<br>
-        5. Meningkatkan efisiensi dan produktivitas karyawan dalam menjalankan bisnis.<br>
-        6. Memberikan makna dan nilai bagi setiap pihak yang terkait dalam bisnis.
-      </p>
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-      <H2>Misi</H2>
-      <p class="text-justify">
-        1. Mewujudkan bisnis yang kompeten, profesional dan dapat dipercaya.<br>
-        2. Berkomitmen memberikan kepuasan pelanggan dengan menjaga kualitas.<br>
-        3. Memberikan kesempatan lapangan pekerjaan pada SDM potensial.<br>
-        4. Merancang ekosistem bisnis yang dapat menyangga bisnis dalam perdagangan.<br>
-        5. Meningkatkan produktivitas, ketangkasan dan kualitas kerja SDM lewat pelatihan.<br>
-        6. Membantu mewujudkan ide dan inovasi konsumen lewat pelayanan bisnis.
-
-      </p>
-    </div>
-  </div>
-
-  <!-- container bawah -->
-
-  <!-- container news -->
-  <div id="news">
-    <div class="container">
-      <h1>News</h1>
-      <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-          <div class="thumbnail">
-            <img src="/peternakan/img/ayam lebih.png" style="height: 200px" />
-            <div class="caption">
-              <h3>KELEBIHAN DAN KEKURANGAN TERNAK AYAM KAMPUNG ASLI</h3>
-              <p class="text-justify">
-                Sekarang ini, ayam potong jenis ayam kampung harganya lebih mahal. Meskipun begitu, jenis ayam ini masih
-                lebih banyak
-                peminatnya dibanding dengan ayam negeri. Karena hal tersebut, ternak ayam kampung menjadi sebuah bisnis
-                yang
-              </p>
-              <a href="/peternakan/informasi/konten4.html"><button class="btn btn-default" tyoe="button"> READ
-                  MORE</button></a>
-            </div>
-          </div>
+    <!-- jumbotron -->
+    <div class="wrapper">
+      <section class="sec01">
+        <div class="pertanian">
+          <div class="bagan"></div>
         </div>
-
-        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-          <div class="thumbnail">
-            <img src="/peternakan/img/telur-bebek-menetas.jpeg" style="height: 200px" />
-            <div class="caption">
-              <h3>CARA MENETASKAN TELUR AYAM KAMPUNG</h3>
-              <p class="text-justify">
-                Menetaskan telur ayam merupakan pengalaman yang sangat berharga, yang membutuhkan perencanaan yang baik,
-                dedikasi,
-                fleksibilitas, serta kemampuan observasi. Telur ayam memiliki periode pengeraman selama 21 hariTelur
-                ayam
-              </p>
-              <a href="/peternakan/tutorial/konten4.html"><button class="btn btn-default" tyoe="button">READ
-                  MORE</button></a>
-            </div>
-          </div>
+      </section>
+      <section class="sec02">
+        <div class="pertanian">
+          <div class="bagan"></div>
         </div>
+      </section>
+      <section class="sec03">
+        <div class="pertanian">
+          <div class="bagan"></div>
+        </div>
+      </section>
+    </div>
+    <!-- jumbotron -->
 
-        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-          <div class="thumbnail">
-            <img src="/perikanan/img/Cara-Harian-untuk-Mengelola-Kualitas-Air-Kolam-Ikan-Lele.jpg"
-              style="height: 200px" />
-            <div class="caption">
-              <h3>CARA BUDIDAYA IKAN MAS DI KOLAM TERPAL</h3>
-              <p class="text-justify">
-                Ikan Mas atau Ikan Karper dengan nama ilmiah Cyprinus Carpio merupakan ikan air tawar dana salah satu
-                jenis yang biasa
-                dikonsumsi oleh masyarakat Indonesia. Di Indonesia, Ikan Mas sudah dipelihara sejak tahun 1920-an.
-                Ikan Mas atau Ikan Karper ini berasal dari Eropa
-              </p>
-              <a href="/perikanan/tutorial/konten1.html"><button class="btn btn-default" tyoe="button">READ
-                  MORE</button>
+    <!-- container atas -->
+    <div id="home">
+      <div class="isi">
+        <div style="margin-top: -55px" class="container atas">
+          <h1>ELEMEN BISNIS</h1>
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+              <a href="/pertanian/Home/pertanian.html">
+                <img
+                  class="img-circle"
+                  src="assets/img/pexels-photo-2804327.jpeg"
+                  style="height: 200px; width: 200px; position: relative"
+                />
+                <h3>PERTANIAN</h3>
               </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-          <div class="thumbnail">
-            <img src="/pertanian/img/grandmother-1822560_1280_optimized-1024x660.jpg" style="height: 200px" />
-            <div class="caption">
-              <h3>PELUANG USAHA DALAM BIDANG PERTANIAN</h3>
               <p class="text-justify">
-                Di tengah kondisi pandemi Covid-19 ini, peluang usaha pertanian dirasa memiliki potensi besar, untuk
-                meraup keuntungan.
-                Sebab, peluang usaha pertanian tidak membutuhkan modal dan lahan besar dan bisa dikerjakan #DiRumahAja
-                walaupun di
-                daerah perkotaan.Pertanian seringkali
+                <strong>Pertanian</strong> adalah kegiatan pemanfaatan dan
+                pengelolaan sumber daya hayati yang dilakukan oleh manusia untuk
+                menghasilkan bahan pangan atau kebutuhan pokok,bahan baku
+                industri atau sumber energi,serta untuk mengelola lingkungan
+                hidupnya.
               </p>
-              <a href="/pertanian/informasi/konten2.html"><button class="btn btn-default" tyoe="button">READ
-                  MORE</button></a>
+            </div>
 
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+              <a href="/perikanan/Home/perikanan.html">
+                <img
+                  class="img-circle"
+                  src="assets/img/budidaya-ikan-nila_43.jpeg"
+                  style="height: 200px; width: 200px; position: relative"
+                />
+                <h3>PERIKANAN</h3>
+              </a>
+              <p class="text-justify">
+                <strong>Perikanan</strong> berasal dari kata dasar ikan yang
+                berimbuhan pe dan an yang berarti segala kegiatan yang
+                berhubungan dengan ikan.Perikanan adalah kegiatan manusia yang
+                berhubungan dengan pengelolaan sumberdaya hayati perairan.
+              </p>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+              <a href="/peternakan/Home/peternakan.html">
+                <img
+                  class="img-circle"
+                  src="assets/img/animal-chicken-cockerel-countryside-wallpaper-preview.jpg"
+                  style="height: 200px; width: 200px; position: relative"
+                />
+                <h3>PETERNAKAN</h3>
+              </a>
+              <p class="text-justify">
+                <strong>Peternakan</strong> adalah kegiatan mengembangbiakkan
+                dan pemeliharaan hewan ternak untuk mendapatkan manfaat dan
+                hasil dari kegiatan tersebut,ada banyak jenis Hewan yang sering
+                dipelihara dan diternakkan di antaranya sapi,ayam,kambing dan
+                domba.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- container news -->
+    <!-- container atas -->
 
-  <!-- gallery -->
-  <div id="gallery">
-    <div class="container">
-      <h1>Gallery</h1>
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="satu">
-          <img class="img-responsive" src="assets/img/Menanam_padi.jpg" width="3000px" />
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" id="satu">
-          <img class="img-responsive" src="assets/img/Telur Ayam Murah - Ayam.jpg" width="300px" />
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" id="satu">
-          <img class="img-responsive" src="assets/img/cara-merawat-kambing-gibas.jpg" width="300px" />
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="dua">
-          <img class="img-responsive" src="assets/img/cow-animals-wallpaper-preview.jpg" width="600px" />
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- gallery -->
-
-  <!-- about -->
-  <div id="about">
-    <div class="container footer">
+    <!-- container bawah -->
+    <div class="container bawah">
+      <h1>VISI & MISI</h1>
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-        <h1>
-          <a href="#" class="navbar-brand navbar-link"
-            style="font-size: 40px; color: rgba(255, 255, 255, 0.788)"><b>E-BUSINESS.</b></a>
-        </h1>
-        <p><br /><br /></p><br>
-        <p>
-          Website ini dibuat untuk menampilkan informasi terkait dengan kegiatan bisnis yang sedang
-          dijalankan dan saling terkombinasi antara satu dengan yang lainnya,yaitu bisnis Pertanian,
-          Perikanan dan Peternakan...
+        <h2>Visi</h2>
+        <p class="text-justify">
+          1. Menjadikan bisnis yang bergerak di bidang pelayanan terbaik kepada
+          konsumen.<br />
+          2. Memastikan pilihan yang diambil sesuai dengan tujuan dan arah
+          bisnins.<br />
+          3. Berperan meningkatkan kualitas hidup konsumen lewat layanan yang
+          baik.<br />
+          4. Memastikan setiap orang memiliki tujuan yang sama dalam bekerja di
+          perusahaan.<br />
+          5. Meningkatkan efisiensi dan produktivitas karyawan dalam menjalankan
+          bisnis.<br />
+          6. Memberikan makna dan nilai bagi setiap pihak yang terkait dalam
+          bisnis.
         </p>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-        <h2>Pencarian :</h2>
-        <div class="input-group input-group-lg">
-          <input type="text" class="form-control" value="cari..." />
-          <div class="input-group-btn">
-            <button class="btn btn-primary" type="submit">Cari</button>
+        <h2>Misi</h2>
+        <p class="text-justify">
+          1. Mewujudkan bisnis yang kompeten, profesional dan dapat
+          dipercaya.<br />
+          2. Berkomitmen memberikan kepuasan pelanggan dengan menjaga
+          kualitas.<br />
+          3. Memberikan kesempatan lapangan pekerjaan pada SDM potensial.<br />
+          4. Merancang ekosistem bisnis yang dapat menyangga bisnis dalam
+          perdagangan.<br />
+          5. Meningkatkan produktivitas, ketangkasan dan kualitas kerja SDM
+          lewat pelatihan.<br />
+          6. Membantu mewujudkan ide dan inovasi konsumen lewat pelayanan
+          bisnis.
+        </p>
+      </div>
+    </div>
+
+    <!-- container bawah -->
+
+    <!-- container news -->
+    <div id="news">
+      <div class="container">
+        <h1>News</h1>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <div class="thumbnail">
+              <img src="/peternakan/img/ayam lebih.png" style="height: 200px" />
+              <div class="caption">
+                <h4>KELEBIHAN DAN KEKURANGAN TERNAK AYAM KAMPUNG ASLI</h4>
+                <p class="text-justify">
+                  Sekarang ini, ayam potong jenis ayam kampung harganya lebih
+                  mahal. Meskipun begitu, jenis ayam ini masih lebih banyak
+                  peminatnya dibanding dengan ayam negeri. Karena hal tersebut,
+                  ternak ayam kampung menjadi sebuah bisnis yang
+                </p>
+                <a href="/peternakan/informasi/konten4.html"
+                  ><button class="btn btn-info" tyoe="button">
+                    READ MORE
+                  </button></a
+                >
+              </div>
+            </div>
           </div>
-        </div>
-        <div id="icon">
-          <i class="fa fa-instagram"></i><i class="fa fa-facebook-official"></i><i class="fa fa-twitter-square"></i><i
-            class="fa fa-youtube-play"></i>
+
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <div class="thumbnail">
+              <img
+                src="/peternakan/img/telur-bebek-menetas.jpeg"
+                style="height: 200px"
+              />
+              <div class="caption">
+                <h4>CARA MENETASKAN TELUR AYAM KAMPUNG</h4>
+                <p class="text-justify">
+                  Menetaskan telur ayam merupakan pengalaman yang sangat
+                  berharga, yang membutuhkan perencanaan yang baik, dedikasi,
+                  fleksibilitas, serta kemampuan observasi. Telur ayam memiliki
+                  periode pengeraman selama 21 hariTelur ayam
+                </p>
+                <a href="/peternakan/tutorial/konten4.html"
+                  ><button class="btn btn-info" tyoe="button">
+                    READ MORE
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <div class="thumbnail">
+              <img
+                src="/perikanan/img/Cara-Harian-untuk-Mengelola-Kualitas-Air-Kolam-Ikan-Lele.jpg"
+                style="height: 200px"
+              />
+              <div class="caption">
+                <h4>CARA BUDIDAYA IKAN MAS DI KOLAM TERPAL</h4>
+                <p class="text-justify">
+                  Ikan Mas atau Ikan Karper dengan nama ilmiah Cyprinus Carpio
+                  merupakan ikan air tawar dana salah satu jenis yang biasa
+                  dikonsumsi oleh masyarakat Indonesia. Di Indonesia, Ikan Mas
+                  sudah dipelihara sejak tahun 1920-an. Ikan Mas atau Ikan
+                  Karper ini berasal dari Eropa
+                </p>
+                <a href="/perikanan/tutorial/konten1.html"
+                  ><button class="btn btn-info" tyoe="button">READ MORE</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <div class="thumbnail">
+              <img
+                src="/pertanian/img/grandmother-1822560_1280_optimized-1024x660.jpg"
+                style="height: 200px"
+              />
+              <div class="caption">
+                <h4>PELUANG USAHA DALAM BIDANG PERTANIAN</h4>
+                <p class="text-justify">
+                  Di tengah kondisi pandemi Covid-19 ini, peluang usaha
+                  pertanian dirasa memiliki potensi besar, untuk meraup
+                  keuntungan. Sebab, peluang usaha pertanian tidak membutuhkan
+                  modal dan lahan besar dan bisa dikerjakan #DiRumahAja walaupun
+                  di daerah perkotaan.Pertanian seringkali
+                </p>
+                <a href="/pertanian/informasi/konten2.html"
+                  ><button class="btn btn-info" tyoe="button">
+                    READ MORE
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- about -->
+    <!-- container news -->
 
-  <!-- kaki -->
-  <div id="kaki">
-    <div class="container">
-      <h5 class="text-center">Copyright © 2022 E-Business |5SIA1| All Rights Reserved</h5>
+    <!-- gallery -->
+    <div id="gallery">
+      <div class="container">
+        <h1>Gallery</h1>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="satu">
+            <img
+              class="img-responsive"
+              src="assets/img/Menanam_padi.jpg"
+              width="3000px"
+            />
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" id="satu">
+            <img
+              class="img-responsive"
+              src="assets/img/Telur Ayam Murah - Ayam.jpg"
+              width="300px"
+            />
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" id="satu">
+            <img
+              class="img-responsive"
+              src="assets/img/cara-merawat-kambing-gibas.jpg"
+              width="300px"
+            />
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="dua">
+            <img
+              class="img-responsive"
+              src="assets/img/cow-animals-wallpaper-preview.jpg"
+              width="600px"
+            />
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  <!-- kaki -->
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-</body>
+    <!-- gallery -->
 
+    <!-- about -->
+    <div id="about">
+      <div class="container footer">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <h1>
+            <a
+              href="#"
+              class="navbar-brand navbar-link"
+              style="font-size: 40px; color: rgba(255, 255, 255, 0.788)"
+              ><b>E-BUSINESS.</b></a
+            >
+          </h1>
+          <p><br /><br /></p>
+          <br />
+          <p>
+            Website ini dibuat untuk menampilkan informasi terkait dengan
+            kegiatan bisnis yang sedang dijalankan dan saling terkombinasi
+            antara satu dengan yang lainnya,yaitu bisnis Pertanian, Perikanan
+            dan Peternakan...
+          </p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <h2>Pencarian :</h2>
+          <div class="input-group input-group-lg">
+            <input type="text" class="form-control" value="cari..." />
+            <div class="input-group-btn">
+              <button class="btn btn-primary" type="submit">Cari</button>
+            </div>
+          </div>
+          <div id="icon">
+            <i class="fa fa-instagram"></i
+            ><i class="fa fa-facebook-official"></i
+            ><i class="fa fa-twitter-square"></i
+            ><i class="fa fa-youtube-play"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- about -->
+
+    <!-- kaki -->
+    <div id="kaki">
+      <div class="container">
+        <h5 class="text-center">
+          Copyright © 2022 E-Business |5SIA1| All Rights Reserved
+        </h5>
+      </div>
+    </div>
+    <!-- kaki -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
