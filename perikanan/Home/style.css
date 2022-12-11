@@ -2,7 +2,9 @@
 body {
   display: flex;
   flex-direction: column;
+  background-color: rgb(238, 238, 238);
 }
+
 .nav-item {
   margin-left: 50px;
 }
@@ -13,6 +15,13 @@ body {
 
 #home {
   margin-left: 550px;
+}
+
+.containerr {
+  margin: auto;
+  max-width: 950px;
+  background-color: white;
+  border: 40px solid white;
 }
 
 section.img {
@@ -74,9 +83,24 @@ section.img {
   animation-iteration-count: infinite;
 }
 
-section.informasi {
-  padding-top: 60px;
+section.penghantar {
   min-height: 650px;
+  background-color: rgb(238, 238, 238);
+}
+
+ol li p {
+  font-size: 18px;
+}
+
+section.informasi {
+  margin-top: -130px;
+  min-height: 650px;
+  background-color: rgb(238, 238, 238);
+}
+
+section.informasi1 {
+  min-height: 650px;
+  background-color: rgb(238, 238, 238);
 }
 
 section.tutorial {
@@ -104,13 +128,13 @@ a:link {
   padding-top: 40px;
 }
 
-h2 {
-  text-align: center;
+h1 {
+  font-family: "Times New Roman", Times, serif;
 }
 
 p {
   text-align: justify;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Karla", sans-serif;
 }
 
