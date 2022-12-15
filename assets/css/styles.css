@@ -293,3 +293,14 @@ h2 {
   color: rgb(196, 196, 196);
   background-color: #0f1517;
 }
+
+section.footer {
+  background-color: #102128;
+  min-height: 50px;
+  font-size: 15px;
+}
+
+dd {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
